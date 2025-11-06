@@ -22,7 +22,7 @@ namespace Inventory_system_1.Views
 
             InitializeDemoData();
 
-            // Her er ProcessButton, StatusMessages osv. automatisk forbundet via XAML
+         
             ProcessButton.Click += async (_, _) => await ProcessOrderAsync();
             RefreshUI();
         }
